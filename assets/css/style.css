@@ -335,8 +335,8 @@ select:disabled {
   text-align: left;
   color: #fff;
   cursor: pointer;
-  padding: 6px 40px;
-  margin: 0 20px;
+  padding: 6px 30px;
+  margin: 0 10px;
 }
 
 .filter-options {
