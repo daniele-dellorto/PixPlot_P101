@@ -1,0 +1,65 @@
+[
+    {
+        "filter_name": "country",
+        "filter_values": [
+            "UAE",
+            "Asia",
+            "Argentina",
+            "South__America",
+            "Belgium",
+            "Europe",
+            "Bulgaria",
+            "Brazil",
+            "Belize",
+            "Central__America",
+            "Canada",
+            "North__America",
+            "Switzerland",
+            "Chile",
+            "Cuba",
+            "Czech__Republic",
+            "Germany",
+            "Denmark",
+            "Spain",
+            "France",
+            "Ghana",
+            "Africa",
+            "Hungary",
+            "Ireland",
+            "Iceland",
+            "Italy",
+            "Japan",
+            "Kenya",
+            "Madagascar",
+            "Malawi",
+            "Nigeria",
+            "Norway",
+            "New__Zealand",
+            "Oceania",
+            "Peru",
+            "Philippines",
+            "Puerto__Rico",
+            "Russia",
+            "Seychelles",
+            "Thailand",
+            "Tanzania",
+            "Uganda",
+            "USA",
+            "Vietnam",
+            "South__Africa",
+            "Zimbabwe"
+        ]
+    },
+
+    {
+        "filter_name": "event",
+        "filter_values": [
+            "COP21",
+            "17100",
+            "CS14",
+            "COP20",
+            "UNWC",
+            "000"
+        ]
+    }
+]
