@@ -348,6 +348,8 @@ select:disabled {
   padding: 10px 20px;
   top: 48px;
   z-index: 0;
+  max-height: 60vh;
+  overflow-y: scroll;
 }
 
 .filter.open .filter-options {
