@@ -3259,9 +3259,22 @@ Hotspots.prototype.render = function() {
     // show the number of cells in this hotspot's cluster
     hotspots[i].querySelector('.hotspot-bar-inner').style.width = (100 * this.json[i].images.length / data.cells.length) + '%';
     // add hotspot event listeners each time they are re-rendered
+    // when clicking on hotspot, all images contained get selected <--------------------------------------------------------------------||||
     hotspots[i].querySelector('.hotspot-image').addEventListener('click', function(idx) {
+      var hotspotImages = this.json[idx].images;
+      console.log(hotspotImages);
+      console.log(lasso.selected);
+      console.log(lasso.selected[5]);
+      const imgKeys = Object.keys(lasso.selected);
+      for (var i=0; i<hotspotImages.length; i++) {
+        var imgIndex = hotspotImages[i];
+        var imgKey = imgKeys[imgIndex];
+        lasso.selected[imgKey] = true;
+      }
+      lasso;
       world.flyToCellImage(this.json[idx].img);
     }.bind(this, i));
+    // <--------------------------------------------------------------------------------------------------------------------------------||||
     // show the convex hull of a cluster on mouse enter
     hotspots[i].addEventListener('mouseenter', function(idx) {
       // update the hover cell buffer
